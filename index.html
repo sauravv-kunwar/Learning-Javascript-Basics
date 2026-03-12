@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .box{
+
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            margin-top: 20px;
+        }
+
+        .second{
+            width:300px;
+            transition : all 0.5s ease-in-out
+
+
+        }
+    </style>
 </head>
 <body>
-    <h1>Learning Javascript</h1>
-    <script src="script.js"></script>
+  <p class = 'first'> Paragraph 1: Lorem ipsum dolor sit amet.</p>  
+  <p class = 'second'> Paragraph 2: Consectetur adipiscing elit.</p>  
+  <p id = 'third'> Paragraph 3: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  
+  <button id = 'btn_hide'>CLICK ME </button>
+  <div class = 'box'> <p>Lorem ipsum dolor sit amet.</p></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src = 'script.js'></script>
 </body>
 </html>
